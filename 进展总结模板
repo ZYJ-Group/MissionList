@@ -1,0 +1,16 @@
+
+| Field               | Dataset Name                                     |                                                              | network type  | code                                                         | I                |
+| ------------------- | ------------------------------------------------ | ------------------------------------------------------------ | ------------- | ------------------------------------------------------------ | ---------------- |
+| Communication Field | [Spacecraft Pose Estimation Dataset (SPEED)](https://zenodo.org/records/6327547) | 光学图像 4.93GB/ | LSTM          | [WuLoli/LSTMDAE: Real-Time Radio Technology and Modulation Classification via an LSTM Auto-Encoder](https://github.com/WuLoli/LSTMDAE) | Modulated Signal |
+|                     |                                                  |                                                              | GNN           | [jcz111/AvgNet: AvgNet: Adaptive Visibility Graph Neural Network and It’s Application in Modulation Classification](https://github.com/jcz111/AvgNet/tree/main) |                  |
+|                     | [RML 2016.10b](https://www.deepsig.ai/datasets/) | Types of signal：24 modulation methods<br />SNR levels：[-20,+18]<br />Data volume：1200000<br />llustrate：Modulated Signal |               |                                                              |                  |
+|                     | [RML 2016.04c](https://www.deepsig.ai/datasets/) | Types of signal：24 modulation methods<br />SNR levels：[-20,+18]<br />Data volume：162060<br />llustrate：Modulated Signal |               |                                                              |                  |
+|                     | [RML 2018.01a](https://www.deepsig.ai/datasets/) | Types of signal：24 modulation methods<br />SNR levels：[-20,+18]<br />Data volume：2555904<br />llustrate：Modulated Signal | meta-learning | [cheeseBG/meta-transformer-amc: Meta-Transformer: A meta-learning framework for scalable automatic modulation classification](https://github.com/cheeseBG/meta-transformer-amc) |                  |
+
+| net       | code                                                         | year | paper                                          |
+| --------- | ------------------------------------------------------------ | ---- | ---------------------------------------------- |
+| GCN       | [tkipf/gcn: Implementation of Graph Convolutional Networks in TensorFlow](https://github.com/tkipf/gcn) | 2017 | [1609.02907](https://arxiv.org/pdf/1609.02907) |
+| BernNet   | https://github.com/ivam-he/BernNet                           | 2019 | https://arxiv.org/pdf/2106.10994.pdf           |
+| GPR-GNN   | https://arxiv.org/pdf/2006.07988.pdf                         | 2021 | https://github.com/jianhao2016/GPRGNN          |
+
+
